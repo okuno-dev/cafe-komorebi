@@ -552,6 +552,7 @@ footer {
 
 .footer-inner {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 24px;
@@ -570,6 +571,8 @@ footer {
 }
 
 footer small {
+  max-width: 100%;
+  overflow-wrap: anywhere;
   font-size: 12px;
   letter-spacing: 1px;
 }
